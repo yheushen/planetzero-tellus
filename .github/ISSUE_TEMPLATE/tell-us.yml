@@ -1,0 +1,18 @@
+name: Tell us
+description: Something on planetzero.ai you think is wrong
+title: "Tell us: "
+body:
+  - type: input
+    id: link
+    attributes:
+      label: The link
+      description: The address of the answer or page on planetzero.ai (copy it from your browser).
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What you think is wrong
+      description: In your own words. A source or a reading helps us check.
+    validations:
+      required: true
